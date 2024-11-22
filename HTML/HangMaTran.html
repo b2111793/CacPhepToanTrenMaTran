@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Các Phép Toán Cơ Bản Trên Ma Trận</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+</head>
+<body>
+    <div class="DanhSachThaXuong">
+        <button class="NutBam">Chọn phép tính</button>
+        <div class="NoiDung">
+            <a href="./CongHaiMaTran.html">1. Thực hiện phép toán cộng hai ma trận cùng kích thước m x n</a>
+            <a href="./TruHaiMaTran.html">2. Thực hiện phép toán trừ hai ma trận cùng kích thước m x n</a>
+            <a href="./NhanMotMaTran.html">3. Thực hiện phép toán nhân một số thực với một ma trận kích thước m x n </a>
+            <a href="./NhanHaiMaTran.html">4. Thực hiện phép toán nhân hai ma trận kích thước khớp nhau m x n và n x p</a>
+            <a href="./ChuyenViMaTran.html">5. Thực hiện phép toán chuyển vị một ma trận kích thước m x n</a>
+            <a href="./HangMaTran.html">6. Thực hiện phép toán tính hạng của một ma trận kích thước m x n</a>
+            <a href="./LuyThuaMaTran.html">7. Thực hiện phép toán tính lũy thừa của một ma trận kích thước n x n</a>
+            <a href="./DinhThucMaTran.html">8. Thực hiện phép toán tính định thức của một ma trận kích thước n x n</a>
+            <a href="./NghichDaoMaTran.html">9. Thực hiện phép toán tìm nghịch đảo của một ma trận kích thước n x n</a>
+            <a href="./CheoHoaMaTran.html">10. Thực hiện phép toán chéo hóa một ma trận kích thước n x n</a>
+        </div>
+    </div>
+
+    <h2>Nhập ma trận A</h2>
+    <label for="rows1">Số hàng:</label>
+    <input type="number" id="rows1">
+    <label for="cols1">Số cột:</label>
+    <input type="number" id="cols1">
+    <button id="NhapMaTran1">Nhập ma trận</button>
+    <br>
+    <span class="HienThi" id="HienThiMaTran1"></span>
+    <br>
+    <button id="LuuMaTran1">Lưu ma trận</button>
+    <button id="InMaTran1">In ma trận</button>
+    <div class="HienThi" id="HienThiMaTranKetQua1"></div>
+
+    <br><br>
+    <button id="TinhHang">Tính hạng của ma trận</button>
+    <h2 class="h2_HangMaTran">Ma trận có hạng rank(A) = rank(A')</h2>
+    <div class="CanGiua">
+        <div class="HienThi HienThiKetQua KetQuaTimHang" id="HienThiMaTranKetQua2"></div>
+        <div class="HienThi HienThiKetQua KetQuaTimHang" id="HienThiMaTranTinhHang"></div>
+        <div class="HienThi HienThiKetQua KetQuaTimHang" id="HienThiHang">
+        </div>
+    </div>
+    <script type="module" src="../JAVASCRIPT/HangMaTran.js"></script>
+</body>
+</html>
